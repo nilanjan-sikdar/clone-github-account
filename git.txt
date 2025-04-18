@@ -36,4 +36,8 @@ git -b checkout ---> create new branch
 
 MAKE MERGING
 use // git merge "name"
-use // git branch -d "name"
+use // git branch -d "name" ---> 
+
+GIT PUSH
+use // git remote add origin <url>
+use // git push --set-upstream origin main(any)
