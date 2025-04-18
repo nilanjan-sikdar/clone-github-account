@@ -1,0 +1,39 @@
+FOR MAKE ANY DIRECTORY IN VSCODE 
+use // mkdir "name" //
+
+LIST
+use // ls
+
+FOR CHANGE DIRECTORY 
+use // cd name(where you have to change)
+
+FOR CHECKING THE STATUS 
+use // git status
+
+for intialised
+use // git init
+
+STAGING ENVIRONMENT 
+use //git add (file)
+use // git add --a/-A for add all changes
+
+COMMITTING PART
+use // git commit -m(message) "what changes you have done(or any name)
+commit -a -->option will automatically stage every changed, already tracked file but not recommended(Warning: Skipping the Staging Environment is not generally recommended.
+Skipping the stage step can sometimes make you include unwanted changes.)
+
+use // git log --> for know the changes we commit
+
+HELP PART
+use // git help --all -  See all possible commands
+use // git command -help -  See all the available options for the specific command (SHIFT + G to jump the end of the list, then q to exit the view.)
+
+TAKE BRANCHING 
+git branch "name"
+git branch ---> to check the branch
+git checkout ---> to change the branch
+git -b checkout ---> create new branch
+
+MAKE MERGING
+use // git merge "name"
+use // git branch -d "name"
